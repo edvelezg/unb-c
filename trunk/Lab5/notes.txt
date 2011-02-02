@@ -20,5 +20,5 @@ troubles with this.
 This lab may be really hard for them if we get a snow day on Wednesday so 
 you will have to be patient and ready to do lots of explaining - they 
 won't have heard about integer division.  If it doesn't snow on Wednesday 
-I will introduce the ideas in class ahead of time.  
+I will introduce the ideas in class ahead of time.
 
