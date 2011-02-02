@@ -1,0 +1,24 @@
+CS1023 Thursday Feb 3
+
+This will be their first time writing any C code and the development 
+environment (lcc) is a bit tricky.  I encourage you to set up lcc-win32 on 
+your own machine and try it out thoroughly before Thursday.  The compiler 
+is freely available here 
+
+http://www.cs.virginia.edu/~lcc-win32
+
+The library that comes with the text book has been compiled for Windows 
+and is available on Blackboard-Student View-Library files.  The .h files 
+all need to be downloaded and stored in the lcc\include directory.  
+cslib.lib needs to be downloaded and stored in the lcc\lib directory.  
+
+Everything is already set up in the labs.  The students just need to be 
+sure to link the cslib.lib file (Project-Configuration-Linker) when they 
+use any of the author's libraries.  Come and see me if you have any 
+troubles with this.  
+
+This lab may be really hard for them if we get a snow day on Wednesday so 
+you will have to be patient and ready to do lots of explaining - they 
+won't have heard about integer division.  If it doesn't snow on Wednesday 
+I will introduce the ideas in class ahead of time.  
+
