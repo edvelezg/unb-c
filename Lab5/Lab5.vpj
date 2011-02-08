@@ -33,7 +33,7 @@
 				CaptureOutputWith="ProcessBuffer"
 				SaveOption="SaveWorkspaceFiles"
 				RunFromDir="%rw">
-				<Exec CmdLine="C:\lcc\bin\make %rwMakefile"/>
+				<Exec CmdLine="C:\lcc\bin\make Makefile"/>
 			</Target>
 			<Target
 				Name="Rebuild"
@@ -95,7 +95,7 @@
 				CaptureOutputWith="ProcessBuffer"
 				SaveOption="SaveWorkspaceFiles"
 				RunFromDir="%rw">
-				<Exec CmdLine="C:\lcc\bin\make %rwMakefile"/>
+				<Exec CmdLine="C:\lcc\bin\make Makefile"/>
 			</Target>
 			<Target
 				Name="Rebuild"
