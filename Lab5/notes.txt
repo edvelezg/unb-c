@@ -29,8 +29,7 @@ I will introduce the ideas in class ahead of time.
 
 A few guidelines:
 
-1) Make sure the project path does not have spaces. The project may be in your H: Drive.
+1) Make sure the project path does not have spaces.
 
 2) When adding files to your project. They must be saved with the *.c extension.
 
-3) When compiling add the following extension
