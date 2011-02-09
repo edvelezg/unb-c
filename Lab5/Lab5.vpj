@@ -33,7 +33,7 @@
 				CaptureOutputWith="ProcessBuffer"
 				SaveOption="SaveWorkspaceFiles"
 				RunFromDir="%rw">
-				<Exec CmdLine="C:\lcc\bin\make Makefile"/>
+				<Exec CmdLine="C:\lcc\bin\make.exe Makefile"/>
 			</Target>
 			<Target
 				Name="Rebuild"
@@ -56,8 +56,8 @@
 				Name="Execute"
 				MenuCaption="E&amp;xecute"
 				SaveOption="SaveNone"
-				BuildFirst="1"
 				CaptureOutputWith="ProcessBuffer"
+				BuildFirst="1"
 				RunFromDir="%rw">
 				<Exec CmdLine='"Lab5.exe"'/>
 			</Target>
@@ -95,7 +95,7 @@
 				CaptureOutputWith="ProcessBuffer"
 				SaveOption="SaveWorkspaceFiles"
 				RunFromDir="%rw">
-				<Exec CmdLine="C:\lcc\bin\make Makefile"/>
+				<Exec CmdLine="C:\lcc\bin\make.exe Makefile"/>
 			</Target>
 			<Target
 				Name="Rebuild"
@@ -118,8 +118,8 @@
 				Name="Execute"
 				MenuCaption="E&amp;xecute"
 				SaveOption="SaveNone"
-				BuildFirst="1"
 				CaptureOutputWith="ProcessBuffer"
+				BuildFirst="1"
 				RunFromDir="%rw">
 				<Exec CmdLine='"Lab5.exe"'/>
 			</Target>
