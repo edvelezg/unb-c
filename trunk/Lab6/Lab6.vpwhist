@@ -1,0 +1,48 @@
+[Global]
+CurrentProject=Lab6.vpj
+[ProjectDates]
+Lab6.vpj=20110213011802308
+[ActiveConfig]
+Lab6.vpj=Debug
+[TreeExpansion2]
+- Lab6.vpj
+  - Source Files
+    - Lab6.c
+  + Header Files
+  + Resource Files
+  + Bitmaps
+  - Other Files
+    - Makefile
+scroll:0
+[State]
+SCREEN: 1280 1024 640 492 640 492 0 0 M 0 0 0 0 1230 818 0
+CWD: ..\Lab6
+BUFFER: BN="Makefile"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Makefile	HM=0 MF=616 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.372 CL=15 LE=0 CX=15 CY=17 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="Lab6.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=15794792 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.921 CL=4 LE=0 CX=4 CY=34 WI=5 BI=12 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 1230 818 -1 -1 M  WF=0 WT=2 ",,,"
+BUFFER: BN="Lab6.c"
+VIEW: LN=.675 CL=19 LE=0 CX=19 CY=24 WI=52 BI=12 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\..\Documents\CS1083.csv
+..\..\unb-java\CS1083\Lab5\input.txt
+..\..\unb-java\CS1083\Lab5\notes.txt
+\Program Files (x86)\Java\jdk1.6.0_23\src.zip\java\util\NoSuchElementException.java
+..\..\unb-java\CS1083\Lab5\AddIntegersInFile.java
+..\..\unb-java\CS1073\Lab4Sln\Lab4Soln.java
+lcc\Makefile
+Makefile
+Lab6.c
+DEBUG: 0 0 0 0 3 0 gdb
+printf
+strcpy
+std::*
+DEBUG2: 0
+PROJECT_CACHE: 1
+20110213011802308 2 C:\Users\UNBSJ\unb-c\Lab6\Lab6.vpj
+Lab6.c
+Makefile
+TBCLASS: 0 0
