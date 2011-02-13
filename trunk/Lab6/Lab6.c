@@ -11,28 +11,41 @@
 	#include <math.h>
 
 	/* procedure prototype*/
-	static void CalcStats(double *m, double *s, double a, double b, double c, double d, double e);
+//  static void CalcStats(double *m, double *s, double a, double b, double c, double d, double e);
+//
+//  int main(){
+//
+//  	printf("This program calculates the mean and standard deviation of five numbers\n");
+//  	printf("The numbers are hard-coded: 23, 4,15,77,32\n");
+//  	double mean, stddev;
+//
+//  	CalcStats(&mean, &stddev,23.0,4.0, 15.0, 77.0,32.0);
+//
+//  	printf("Mean is: %.2f and standard deviation is: %.2f", mean, stddev);
+//  	return(0);
+//  }
+//
+//  static void CalcStats(double *m, double *s, double a, double b, double c, double d, double e){
+//
+//  	*m = (a+b+c+d+e)/5;
+//  	*s = sqrt((pow(*m-a,2) + pow(*m-b,2) + pow(*m-c,2) + pow(*m-d,2) + pow(*m-e,2))/5);
+//  	return;
+//  }
 
-	int main(){
+//void change(int x);
+void change_by_reference(int *x);
 
-		printf("This program calculates the mean and standard deviation of five numbers\n");
-		printf("The numbers are hard-coded: 23, 4,15,77,32\n");
-		double mean, stddev;
-
-		CalcStats(&mean, &stddev,23.0,4.0, 15.0, 77.0,32.0);
-
-		printf("Mean is: %.2f and standard deviation is: %.2f", mean, stddev);
-		return(0);
-	}
-
-	static void CalcStats(double *m, double *s, double a, double b, double c, double d, double e){
-
-		*m = (a+b+c+d+e)/5;
-		*s = sqrt((pow(*m-a,2) + pow(*m-b,2) + pow(*m-c,2) + pow(*m-d,2) + pow(*m-e,2))/5);
-		return;
-	}
-
-int main (int argc, char *argv[])
+int main ()
 {
+	int a = 1;
+	change_by_reference(&a);
+	printf("%d\n", a);
 	return 0;
+}
+
+
+void change_by_reference(int *x)
+{
+	*x += 10;
+	printf("%d\n", *x);
 }

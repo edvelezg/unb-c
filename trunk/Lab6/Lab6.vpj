@@ -4,7 +4,8 @@
 	VendorName="SlickEdit"
 	WorkingDir="."
 	BuildSystem=""
-	BuildMakeFile="">
+	BuildMakeFile=""
+	VCSProject="Subversion:">
 	<Config
 		Name="Debug"
 		Type="gnuc"
@@ -202,6 +203,8 @@
 			Name="Source Files"
 			Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d">
 			<F N="Lab6.c"/>
+			<F N="Lab6Ref.c"/>
+			<F N="Lab6Val.c"/>
 		</Folder>
 		<Folder
 			Name="Header Files"
