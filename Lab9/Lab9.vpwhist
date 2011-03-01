@@ -1,0 +1,41 @@
+[Global]
+CurrentProject=Lab9.vpj
+[ProjectDates]
+Lab9.vpj=20110228221857075
+[ActiveConfig]
+Lab9.vpj=,Debug
+[TreeExpansion2]
+- Lab9.vpj
+  - Source Files
+    - lab-mar-3.c
+  + Header Files
+  + Resource Files
+  + Bitmaps
+  + Other Files
+    - lab-mar-3.pdf
+    - Makefile
+scroll:0
+[State]
+SCREEN: 1280 1024 0 0 640 984 0 0 M 0 0 0 0 1230 818 0
+CWD: ..\Lab9
+FILEHIST: 9
+\Program Files (x86)\Java\jdk1.6.0_23\src.zip\java\util\NoSuchElementException.java
+..\..\unb-java\CS1083\Lab5\AddIntegersInFile.java
+..\..\unb-java\CS1073\Lab4Sln\Lab4Soln.java
+..\Lab6\lcc\Makefile
+..\Lab6\Lab6.c
+..\Lab6\Lab6Val.c
+..\Lab6\Lab6Ref.c
+..\Lab6\Makefile
+lab-mar-3.c
+DEBUG: 0 0 0 0 3 0 gdb
+printf
+strcpy
+std::*
+DEBUG2: 0
+PROJECT_CACHE: 1
+20110228221857075 3 C:\Users\UNBSJ\unb-c\Lab9\Lab9.vpj
+lab-mar-3.c
+lab-mar-3.pdf
+Makefile
+TBCLASS: 0 0
