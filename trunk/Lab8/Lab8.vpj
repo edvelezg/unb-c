@@ -30,7 +30,7 @@
 				CaptureOutputWith="ProcessBuffer"
 				SaveOption="SaveWorkspaceFiles"
 				RunFromDir="%rw">
-				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" build "%w" "%r"'/>
+				<Exec CmdLine='"C:\lcc\bin\make.exe"'/>
 			</Target>
 			<Target
 				Name="Rebuild"
@@ -56,7 +56,7 @@
 				BuildFirst="1"
 				CaptureOutputWith="ProcessBuffer"
 				RunFromDir="%rw">
-				<Exec CmdLine='"%o"'/>
+				<Exec CmdLine="%o"/>
 			</Target>
 		</Menu>
 	</Config>
@@ -87,7 +87,7 @@
 				CaptureOutputWith="ProcessBuffer"
 				SaveOption="SaveWorkspaceFiles"
 				RunFromDir="%rw">
-				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" build "%w" "%r"'/>
+				<Exec CmdLine='"C:\lcc\bin\make.exe"'/>
 			</Target>
 			<Target
 				Name="Rebuild"
@@ -113,7 +113,7 @@
 				BuildFirst="1"
 				CaptureOutputWith="ProcessBuffer"
 				RunFromDir="%rw">
-				<Exec CmdLine='"%o"'/>
+				<Exec CmdLine="%o"/>
 			</Target>
 		</Menu>
 	</Config>
@@ -128,7 +128,9 @@
 	<Files>
 		<Folder
 			Name="Source Files"
-			Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d"/>
+			Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d">
+			<F N="lab-mar-1.c"/>
+		</Folder>
 		<Folder
 			Name="Header Files"
 			Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.inc;*.sh;*.cpy;*.if"/>
@@ -140,6 +142,11 @@
 			Filters="*.bmp"/>
 		<Folder
 			Name="Other Files"
-			Filters=""/>
+			Filters="">
+			<F N="lab-mar-1.pdf"/>
+			<F
+				N="Makefile"
+				Type="Makefile"/>
+		</Folder>
 	</Files>
 </Project>

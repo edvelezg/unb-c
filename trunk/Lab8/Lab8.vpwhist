@@ -1,6 +1,50 @@
 [Global]
 CurrentProject=Lab8.vpj
 [ProjectDates]
-Lab8.vpj=20110228193209316
+Lab8.vpj=20110301170709466
 [ActiveConfig]
 Lab8.vpj=Debug
+[TreeExpansion2]
+- Lab8.vpj
+  - Source Files
+    - lab-mar-1.c
+  + Header Files
+  + Resource Files
+  + Bitmaps
+  - Other Files
+    - lab-mar-1.pdf
+    - Makefile
+scroll:0
+[State]
+SCREEN: 1280 1024 0 0 640 984 0 0 M 0 0 0 0 1230 818 0
+CWD: ..\Lab8
+BUFFER: BN="lab-mar-1.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.503 CL=1 LE=0 CX=1 CY=12 WI=5 BI=4 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="Makefile"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Makefile	HM=0 MF=616 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.604 CL=49 LE=0 CX=49 CY=25 WI=5 BI=13 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 1230 818 -1 -1 M  WF=0 WT=2 ",,,"
+BUFFER: BN="Makefile"
+VIEW: LN=.604 CL=49 LE=0 CX=49 CY=25 WI=12 BI=13 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\..\Desktop\TODO\Questions.txt
+..\..\unb-dw\project\Project Gutenberg Canada _ Projet Gutenberg Canada.htm
+..\..\unb-dw\project\sample_text.txt
+..\..\unb-dw\project\sample_text2.txt
+..\..\unb-dw\project\sample_text3.txt
+lcc\Makefile
+mysample.c
+lab-mar-1.c
+Makefile
+DEBUG: 0 0 0 0 3 0 gdb
+printf
+strcpy
+std::*
+DEBUG2: 0
+PROJECT_CACHE: 1
+20110301170709466 3 C:\Users\UNBSJ\unb-c\Lab8\Lab8.vpj
+lab-mar-1.c
+lab-mar-1.pdf
+Makefile
+TBCLASS: 0 0
