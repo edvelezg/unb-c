@@ -8,12 +8,9 @@
 #include "simpio.h"
 #include "strlib.h"
 
-
 //function prototy[pe
 int IterativeSum( int n);
 int RecursiveSum(int n);
-
-
 
 int main(){
 
