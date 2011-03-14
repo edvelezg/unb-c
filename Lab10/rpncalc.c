@@ -34,7 +34,11 @@ int main()
 	while(TRUE){
 		printf("> ");
 		line = GetLine();
+//  	printf("line %s\n", line);
+
 		ch = toupper(line[0]);
+
+//  	printf("line %c\n", line[0]);
 		switch(ch){
 			case 'Q': exit(0);
 			case 'H': HelpCommand(); break;
@@ -71,6 +75,7 @@ int main()
 			case '-': result = lhs - rhs; break;
 			case '*': result = lhs * rhs; break;
 			case '/': result = lhs / rhs; break;
+			case '%': result = ((int)lhs) % ((int)rhs); break;
 			default: Error("Illegal operator %c", op);
 		}
 
