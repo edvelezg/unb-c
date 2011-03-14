@@ -4,3 +4,36 @@ CurrentProject=Lab9Smpl.vpj
 Lab9Smpl.vpj=20110304161659870
 [ActiveConfig]
 Lab9Smpl.vpj=,Debug
+[TreeExpansion2]
+- Lab9Smpl.vpj
+  - Source Files
+    - feb22.c
+  + Header Files
+  + Resource Files
+  + Bitmaps
+  + Other Files
+    - Makefile
+scroll:0
+[State]
+SCREEN: 1280 1024 201 204 960 718 0 0 M 0 0 0 0 1230 824 0
+CWD: ..\Lab9Smpl
+FILEHIST: 9
+..\Lab6\Lab6.c
+..\Lab6\Lab6Val.c
+..\Lab6\Lab6Ref.c
+..\Lab6\Makefile
+..\Lab9\lab-mar-3.pdf
+..\Lab9\lab-mar-3.c
+feb22.c
+\Qt\2010.05\mingw\lib\gcc\mingw32\4.4.0\include\c++\new
+\lcc\include\genlib.h
+DEBUG: 0 0 0 0 3 0 gdb
+printf
+strcpy
+std::*
+DEBUG2: 0
+PROJECT_CACHE: 1
+20110304161659870 2 C:\Users\UNBSJ\unb-c\Lab9Smpl\Lab9Smpl.vpj
+feb22.c
+Makefile
+TBCLASS: 0 0
