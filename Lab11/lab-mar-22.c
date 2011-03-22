@@ -21,7 +21,6 @@ void PreOrderWalk(treeT t);
 
 int main()
 {
-
     //create a languageTree
     treeT languageTree = NULL;
     //insert some values (programming languages)
@@ -48,8 +47,6 @@ int main()
 
     FreeBlock(languageTree);
 }
-
-
 
 treeT FindNode(treeT t, string key)
 {
