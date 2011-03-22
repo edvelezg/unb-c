@@ -3,19 +3,13 @@ File: lab-mar-22.c simple implementation of a binary search tree
 keys are strings
 partial solution to lab Mar 22/24 CS1023 Winter 2011
 */
-
-
-
 #include "strlib.h" //for StringCompare function
-
 
 typedef struct nodeT
 {
     string key;
     struct nodeT *left, *right;
-}nodeT, *treeT;
-
-
+} nodeT, *treeT;
 
 /*function prototypes*/
 
@@ -31,14 +25,15 @@ int main()
     //create a languageTree
     treeT languageTree = NULL;
     //insert some values (programming languages)
-    InsertNode(&languageTree, "Java");
-    InsertNode(&languageTree, "C");
-    InsertNode(&languageTree, "Fortran");
-    InsertNode(&languageTree, "Python");
-    InsertNode(&languageTree, "Haskell");
-    InsertNode(&languageTree, "Ruby");
-    InsertNode(&languageTree, "Prolog");
-    InsertNode(&languageTree, "C#");
+
+    InsertNode(&languageTree, "5");
+    InsertNode(&languageTree, "4");
+    InsertNode(&languageTree, "6");
+    InsertNode(&languageTree, "1");
+    InsertNode(&languageTree, "2");
+    InsertNode(&languageTree, "3");
+    InsertNode(&languageTree, "7");
+    InsertNode(&languageTree, "8");
 
     //display the tree using InOrder, PreOrder and PostOrder traversal
 
@@ -52,7 +47,6 @@ int main()
     PostOrderWalk(languageTree);
 
     FreeBlock(languageTree);
-
 }
 
 
