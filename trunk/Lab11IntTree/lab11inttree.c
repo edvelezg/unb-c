@@ -4,18 +4,13 @@ keys are ints
 partial solution to lab Mar 22/24 CS1023 Winter 2011
 */
 
-
-
 #include "strlib.h" //for intCompare function
-
 
 typedef struct nodeT
 {
     int key;
     struct nodeT *left, *right;
-}nodeT, *treeT;
-
-
+} nodeT, *treeT;
 
 /*function prototypes*/
 
@@ -27,7 +22,6 @@ void PreOrderWalk(treeT t);
 
 int main()
 {
-
     //create a languageTree
     treeT languageTree = NULL;
     //insert some values (programming languages)
@@ -50,10 +44,7 @@ int main()
     PostOrderWalk(languageTree);
 
     FreeBlock(languageTree);
-
 }
-
-
 
 treeT FindNode(treeT t, int key)
 {
@@ -116,8 +107,8 @@ void PreOrderWalk(treeT t)
     if (t != NULL)
     {
         printf("%d\n", t->key);
-        DisplayTree(t->left);
-        DisplayTree(t->right);
+        PreOrderWalk(t->left);
+        PreOrderWalk(t->right);
     }
 }
 
@@ -129,11 +120,33 @@ void PostOrderWalk(treeT t)
 
     if (t != NULL)
     {
-        DisplayTree(t->left);
-        DisplayTree(t->right);
+        PostOrderWalk(t->left);
+        PostOrderWalk(t->right);
         printf("%d\n", t->key);
 
     }
 }
 
-
+//In Order Traversal
+//0
+//1
+//2
+//4
+//5
+//6
+//
+//Pre Order Traversal
+//4
+//1
+//0
+//2
+//5
+//6
+//
+//Post Order Traversal
+//0
+//2
+//1
+//6
+//5
+//4
