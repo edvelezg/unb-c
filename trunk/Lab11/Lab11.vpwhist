@@ -19,16 +19,18 @@ Lab11.vpj=Debug
     - lcc\Makefile
 scroll:0
 [State]
-SCREEN: 1280 1024 0 0 640 984 0 0 M 0 0 0 0 1230 824 0
+SCREEN: 1280 1024 640 0 640 984 0 0 M 0 0 0 0 1230 824 0
 CWD: ..\Lab11
 BUFFER: BN="lab-mar-22.c"
-BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
-VIEW: LN=.0 CL=1 LE=0 CX=1 CY=0 WI=5 BI=10 HT=0 HN=0 HF=0 HC=4
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.2385 CL=1 LE=0 CX=1 CY=45 WI=5 BI=10 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\..\unb-dw\project\sample_text.txt"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=0 ST=0 IN=1 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Plain Text	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=1 CY=0 WI=5 BI=11 HT=0 HN=0 HF=0 HC=4
 WINDOW: 0 0 953 576 -1 -1 M  WF=0 WT=2 ",,,"
-BUFFER: BN="lab-mar-22.c"
-VIEW: LN=.2585 CL=1 LE=0 CX=1 CY=30 WI=153 BI=10 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\..\unb-dw\project\sample_text.txt"
+VIEW: LN=.958 CL=36 LE=0 CX=36 CY=24 WI=74 BI=11 HT=0 HN=0 HF=0 HC=4
 FILEHIST: 9
-..\..\unb-dw\project\StandAloneAnnie\Main.java
 ..\..\unb-java\CS1083\Lab8\Lab8.java
 ..\..\unb-dw\DanTutorial\etl.pdf
 ..\..\unb-dw\DanTutorial\prices.csv
@@ -37,6 +39,7 @@ FILEHIST: 9
 lcc\Makefile
 Lab-mar-22.pdf
 lab-mar-22.c
+..\..\unb-dw\project\sample_text.txt
 DEBUG: 0 0 0 0 3 0 gdb
 printf
 strcpy
