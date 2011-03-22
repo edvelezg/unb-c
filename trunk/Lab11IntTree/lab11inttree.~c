@@ -31,14 +31,12 @@ int main()
     //create a languageTree
     treeT languageTree = NULL;
     //insert some values (programming languages)
-    InsertNode(&languageTree, 1);
-    InsertNode(&languageTree, 2);
-    InsertNode(&languageTree, 3);
     InsertNode(&languageTree, 4);
+    InsertNode(&languageTree, 1);
     InsertNode(&languageTree, 5);
+    InsertNode(&languageTree, 2);
+    InsertNode(&languageTree, 0);
     InsertNode(&languageTree, 6);
-    InsertNode(&languageTree, 7);
-    InsertNode(&languageTree, 8);
 
     //display the tree using InOrder, PreOrder and PostOrder traversal
 
@@ -89,7 +87,7 @@ void InsertNode(treeT *tptr, int key)
         return;
     }
 
-    sign = intCompare(key, t->key);
+    sign = key - t->key;
     if (sign ==0 ) return;
     if (sign < 0)
         InsertNode(&t->left, key);
@@ -104,7 +102,7 @@ void DisplayTree(treeT t)
     if (t != NULL)
     {
         DisplayTree(t->left);
-        printf("%s\n", t->key);
+        printf("%d\n", t->key);
         DisplayTree(t->right);
     }
 }
@@ -117,9 +115,9 @@ void PreOrderWalk(treeT t)
 
     if (t != NULL)
     {
-        printf("%s\n", t->key);
-        DisplayTree(t->left);
-        DisplayTree(t->right);
+        printf("%d\n", t->key);
+        PreOrderWalk(t->left);
+        PreOrderWalk(t->right);
     }
 }
 
@@ -131,9 +129,9 @@ void PostOrderWalk(treeT t)
 
     if (t != NULL)
     {
-        DisplayTree(t->left);
-        DisplayTree(t->right);
-        printf("%s\n", t->key);
+        PostOrderWalk(t->left);
+        PostOrderWalk(t->right);
+        printf("%d\n", t->key);
 
     }
 }
