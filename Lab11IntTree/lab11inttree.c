@@ -19,6 +19,7 @@ void InsertNode(treeT *tptr, int key);
 void DisplayTree(treeT t);
 void PostOrderWalk(treeT t);
 void PreOrderWalk(treeT t);
+void FindMax(treeT t, int *count);
 
 int main()
 {
@@ -42,6 +43,11 @@ int main()
 
     printf("\nPost Order Traversal\n");
     PostOrderWalk(languageTree);
+
+    int count;
+	count = 0;
+    FindMax(languageTree, &count);
+    printf("\nCount is: %d \n", count);
 
     FreeBlock(languageTree);
 }
@@ -127,26 +133,16 @@ void PostOrderWalk(treeT t)
     }
 }
 
-//In Order Traversal
-//0
-//1
-//2
-//4
-//5
-//6
-//
-//Pre Order Traversal
-//4
-//1
-//0
-//2
-//5
-//6
-//
-//Post Order Traversal
-//0
-//2
-//1
-//6
-//5
-//4
+
+void FindMax(treeT t, int *count)
+{
+
+    if (t != NULL)
+    {
+        FindMax(t->left, count);
+        FindMax(t->right, count);
+        printf("%d\n", t->key);
+        *count += 1;
+    }
+}
+
