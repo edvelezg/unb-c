@@ -1,0 +1,20 @@
+Recursion is similar to stepwise refinement in that both
+strategies consist of breasking a problem down into simpler
+problems that are easier to solve.  The distinguishing
+characteristic of recursion is that the simpler subproblems
+must have the same form as the original.
+
+
+To use recursion you must be able to identify simple cases
+for which the answer is easily determined and a recursive
+decomposition that allows you to break any complex instance
+of the problem into simpler problems of the same type.
+
+Recursive functions are implemented using exactly the same
+mechanism as any other function call.  Each call creates a new
+stack frame that contains the local variables for that call.
+Because the computer creates a separate stack frame for each
+function call, the local variables at each level of recursive
+decomposition remain separate.
+
+
