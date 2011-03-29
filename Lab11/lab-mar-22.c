@@ -127,3 +127,14 @@ void PostOrderWalk(treeT t)
     }
 }
 
+
+//Another compression technique is COMPAX.  In COMPAX, bitmaps are first
+//compressed using WAH, and then are further compressed by encoding words as
+//LFL and FLF words.  In these patterns, L words are dirty words that
+//contain a single dirty byte and F words are dirty words that always have a
+//last dirty byte.  F words are compressed 0-fill words.  unlikely to form
+//in their context.  They have dirty words which they call literal words and
+//label as L and 0-fill words which are labelled as F.  They additionally
+//introduce the LFL, and FLF word, that further compress their WAH encoded
+//indices
+
