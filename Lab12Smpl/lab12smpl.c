@@ -25,10 +25,17 @@ int main()
         while (TRUE)
         {
             temp = ReadLine(infile);
+
             if (temp==NULL)
                 break;
             else
             {
+				for (int i = 0; i < StringLength(temp); ++i)
+				{
+					if (IthChar(temp, i) == 'e')
+						temp[i] = 'E';
+
+				}
                 printf("%s\n", temp);
             }
 
