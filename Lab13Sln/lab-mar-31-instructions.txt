@@ -1,0 +1,85 @@
+/**
+	File: lab-mar-31.c
+	Implements a heap data structure using an array
+	Size of heap is fixed to 32 nodes
+	Parent of node n is (n-1)/2
+	Left child node is 2n +1
+	Right child node is 2n + 2, where n is the position of this node
+	Root node is at position 0
+	written by Hazel Webb
+	March 30, 2011
+**/
+
+#include <stdio.h>
+#include "simpio.h"
+
+//constant
+#define SIZE 32
+
+// function prototypes
+static int InsertNode(int array[], int insertValue, int where);
+static void Display(int array[], int where);
+
+int main(){
+	// 1. create an int array (heap) of SIZE
+	//2. create an int to keep track of the next available location to add a node
+	//3. initialise heap to a very large value - for this program we can assume that 1000000 is large enough
+	//4. Get a sequence of 10 integers from the user and insert each in our heap
+	//Display our heap
+	Display(heap, where);
+}
+/**	Function: Display
+	Displays the heap in order from root to rightmost leaf.
+	Breadth-first display.
+**/
+static void Display(int array[], int where){
+
+	// 1.  Loop through the array and display each element
+	for(int i = 0 ; i < where; ++i)
+
+	}
+
+
+/**
+	Function: InsertNode
+    Inserts insertValue at position where in array if heap order is not violated.
+	Otherwise insertValue is percolated up until it no longer violates heap order.
+**/
+static int InsertNode(int array[], int insertValue, int where){
+
+	int inserted = 0;// for loop control
+
+	int location = (where -1)/2;// find parent node location
+
+	int temp = where;//as we percolate up the heap we do not want to lose track of where the next available location should be
+	array[where] = insertValue;// assume that this is a valid place to insert
+
+	// 1. check if it is indeed a valid location
+
+	// 2. increment where and return its new value
+	//otherwise need to find the correct spot
+
+	while(inserted == 0 ){
+
+		// 3. swap the values of the newly inserted node and its parent (use temp as the index)
+
+		// 4. set temp to our current location (we are now at the parent node location)
+
+		 // 5. find the new parent node location
+
+		// 6. check if this is a valid location and set inserted to 1 to end the loop
+
+
+		// check if we are at the root and if so, this must be where insertValue should go  (the code is provided for you)
+		if(location == 0 && insertValue < array[location]){
+			array[temp] = array[location];
+			array[location] = insertValue;
+			inserted = 1;// stop the loop
+		}
+}//end while
+
+
+	return where +1;//let main know where the next value should be inserted
+}
+
+
